@@ -1,0 +1,40 @@
+body{
+    background:dimgrey;
+}
+.container{
+    background:lavender;
+    width:100%;
+    height:100%;
+    font-family: 'Oswald', sans-serif;
+    border: 0px;
+    padding: 10px;
+    margin: 2px;
+    border-style: solid;
+    border-color: white;
+}
+.cols1{
+    width:7.5%;
+    height:auto;
+    float:left;
+}
+.nav{
+    width:100%;
+    height:5%;
+    background:firebrick;
+}
+.height{
+    height:5%;
+}
+.cols2{
+    width:15%;
+    height:5%;
+    float:left;
+}
+div a{
+    display: inherit;
+    color: blue;
+    float: center;
+    //padding: 20px 20px;
+    text-decoration: none;
+    list-style: none;
+}
