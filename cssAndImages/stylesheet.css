@@ -88,6 +88,11 @@ Main components
   background: no-repeat center center;
   background-image: url(home_header.gif);
   background-size: cover;
+    font-family: 'Lobster', cursive;
+    font-size: 8px;
+}
+#cd-intro img{
+object-position: center;
 }
 #cd-intro h1 {
   position: absolute;
@@ -124,7 +129,7 @@ Main components
   width: 100%;
   height: 50px;
   z-index: 2;
-  background: rgba(58, 57, 63, 0.6);
+  background: rgba(0, 51, 102,0.6);
   -webkit-transition: background 0.2s;
   -moz-transition: background 0.2s;
   transition: background 0.2s;
@@ -265,17 +270,22 @@ Main components
 }
 #main-nav ul {
   height: 100%;
+      background-color: rgba(0, 51, 102,0.6);
 }
 #main-nav li {
   height: 20%;
+
+}
+#main-nav li: hover{
+  
+
 }
 #main-nav li a {
   position: relative;
   display: block;
   padding: 0 10%;
   height: 100%;
-  border-bottom: 1px solid #dfdbec;
-  color: #3a393f;
+  color: white;
   font-size: 20px;
   font-size: 1.25rem;
   font-weight: bold;
@@ -297,6 +307,7 @@ Main components
 }
 #main-nav li:last-child a {
   border-bottom: none;
+ 
 }
 #main-nav .cd-close-menu {
   position: absolute;
@@ -305,7 +316,7 @@ Main components
   display: inline-block;
   width: 40px;
   height: 40px;
-  background-color: #d26c64;
+  background-color: rgb(0, 77, 153);
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
